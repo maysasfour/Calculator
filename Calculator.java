@@ -28,7 +28,7 @@ public class Calculator implements ActionListener {
 
         addButton = new JButton("+");
         subButton = new JButton("-");
-        mulButton = new JButton("X");
+        mulButton = new JButton("x");
         divButton = new JButton("÷");
         decButton = new JButton(".");
         equButton = new JButton("=");
@@ -90,7 +90,6 @@ public class Calculator implements ActionListener {
         frame.add(clrButton);
         frame.add(textField);
 
-        // Set custom button colors
         Color darkGray = new Color(64, 64, 64);
         Color black = new Color(0, 0, 0);
         Color red = new Color(220, 0, 0);
